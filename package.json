@@ -1,6 +1,6 @@
 {
   "name": "unindent-lines",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "unindent multiple lines",
   "license": "MIT",
   "main": "lib/unindent-lines.js",
