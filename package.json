@@ -4,6 +4,9 @@
   "description": "unindent multiple lines",
   "license": "MIT",
   "main": "lib/unindent-lines.js",
+  "engines": {
+    "node": ">=0.12.0"
+  },
   "scripts": {
     "build": "babel src/. -d lib/. --ignore=spec.js",
     "test:js": "babel-node src/unindent-lines.spec.js",
