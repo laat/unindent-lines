@@ -10,7 +10,7 @@
   "scripts": {
     "build": "babel src/. -d lib/. --ignore=spec.js",
     "test:js": "babel-node src/unindent-lines.spec.js",
-    "test:readme": "readme-assert",
+    "test:readme": "readme-assert --main ./lib/unindent-lines.js",
     "test": "npm run test:js && npm run test:readme",
     "lint": "standard src/**/*.js",
     "prepublish": "npm run build"
