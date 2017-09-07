@@ -12,7 +12,6 @@
     "test:js": "babel-node src/unindent-lines.spec.js",
     "test:readme": "readme-assert --main ./lib/unindent-lines.js",
     "test": "npm run test:js && npm run test:readme",
-    "lint": "standard src/**/*.js",
     "prepublish": "npm run build"
   },
   "author": {
@@ -25,11 +24,11 @@
     "url": "https://github.com/laat/tap-color.git"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
+    "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
+    "prettier": "^1.6.1",
     "readme-assert": "^5.0.5",
-    "standard": "^10.0.2",
-    "tape": "^4.6.3"
+    "tape": "^4.8.0"
   },
   "files": [
     "lib"
