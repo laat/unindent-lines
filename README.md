@@ -12,7 +12,7 @@ $ npm install --save unindent-lines
 
 ## Usage
 
-```javascript
+```javascript test
 import unindentLines from 'unindent-lines'
 
 const lines = '\ta\n\t\tb'
